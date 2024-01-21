@@ -46,8 +46,18 @@ with st.container():
             " for a ",
             ("startup", "hypothetical", "magenta"),
             " at the intersection of selected industries.\n\n",
-            ("Aditya Prakash Singh", "developer", "green")
+            
         )
+
+        # Display copyright, name, and GitHub link 
+        st.markdown("""
+        <p style='text-align: left;'>
+            © Aditya Prakash Singh
+            <a href="https://github.com/apsinghAnalytics/streamlit_VentureGen" target="_blank">
+                <img src="https://simpleicons.org/icons/github.svg" alt="GitHub" style="height:24px; display:inline-block; vertical-align: middle;">
+            </a>
+        </p>
+        """, unsafe_allow_html=True)
 
 
 if generateButton:
