@@ -1,2 +1,3 @@
 #ignore the file containing Open API credentials
 creds.py
+*.pyc
